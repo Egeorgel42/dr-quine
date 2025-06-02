@@ -24,6 +24,8 @@ Grace: Grace.s
 	$(LD) -o $@ Grace.o
 
 clean:
+	rm -f Grace_kid.c
+	rm -f Sully/*_*
 	rm -f *.o
 
 fclean: clean

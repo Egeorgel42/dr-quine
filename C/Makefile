@@ -16,7 +16,7 @@ Grace: Grace.c
 
 clean:
 	rm -f Grace_kid.c
-	rm -f Sully/*_
+	rm -f Sully/*_*
 
 fclean: clean
 	rm -f $(NAMES)
